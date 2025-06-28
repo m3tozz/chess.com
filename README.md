@@ -16,7 +16,7 @@
 
   <details>
  <summary>Automatic Installation Command For Linux</summary>
-  <code>git clone --depth 1 https://github.com/m3tozz/chess.com && cd chess.com && bash ./chess.sh --install && cd ..</code><br>
+  <code>git clone --depth 1 https://github.com/m3tozz/chess.com && cd chess.com && bash ./chess.sh --install && cd ..</code>
   </details>
   
 ---
@@ -25,7 +25,11 @@
 
 Download and run the installer:  
 [**Download Chess Setup Installer**](https://github.com/m3tozz/chess.com/releases/download/v1.0.0/Chess.Setup.1.0.0.exe)
-
+  <details>
+ <summary>Manual run without installation using main.js and package.json</summary>
+  <code>npm install && npm start</code>
+  </details>
+  
 >*Supports Windows 10 and later*
 
 ---
