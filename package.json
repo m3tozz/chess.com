@@ -1,19 +1,18 @@
 "build": {
   "appId": "com.m3tozz.chess",
+  "productName": "Chess",
   "mac": {
     "category": "public.app-category.games",
-    "target": "dmg",
-    "icon": "icon/logo.icns"
+    "target": ["dmg", "zip"],
+    "icon": "icon/logo.icns",
+    "darkModeSupport": true
   },
   "win": {
     "target": "nsis",
     "icon": "icon/logo.ico"
   },
   "linux": {
-    "target": [
-      "AppImage",
-      "deb"
-    ],
+    "target": ["AppImage", "deb"],
     "icon": "icon/logo.png"
   }
 }
