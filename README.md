@@ -9,11 +9,16 @@
 
 | Command                  | Description                       |
 |--------------------------|---------------------------------|
-| `./chess.sh --launch`     | Run without installing           |
-| `./chess.sh --install`    | Install Chess system-wide        |
-| `./chess.sh --uninstall`  | Uninstall Chess                  |
-| `./chess.sh --help`       | Show available options           |
+| `bash ./chess.sh --launch`     | Run without installing           |
+| `bash ./chess.sh --install`    | Install Chess system-wide        |
+| `bash ./chess.sh --uninstall`  | Uninstall Chess                  |
+| `bash ./chess.sh --help`       | Show available options           |
 
+  <details>
+ <summary>Automatic Installation Command For Linux</summary>
+  <code>git clone --depth 1 https://github.com/m3tozz/chess.com && cd chess.com && bash ./chess.sh --install && cd ..</code><br>
+  </details>
+  
 ---
 
 ### Windows
