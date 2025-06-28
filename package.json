@@ -1,18 +1,37 @@
-"build": {
-  "appId": "com.m3tozz.chess",
-  "productName": "Chess",
-  "mac": {
-    "category": "public.app-category.games",
-    "target": ["dmg", "zip"],
-    "icon": "icon/logo.icns",
-    "darkModeSupport": true
+{
+  "name": "chess",
+  "version": "1.0.0",
+  "description": "Simple Electron-based Chess.com Client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
   },
-  "win": {
-    "target": "nsis",
-    "icon": "icon/logo.ico"
+  "keywords": ["chess", "electron", "browser"],
+  "author": "m3tozz",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^37.1.0",
+    "electron-builder": "^24.6.0"
   },
-  "linux": {
-    "target": ["AppImage", "deb"],
-    "icon": "icon/logo.png"
+  "build": {
+    "appId": "com.m3tozz.chess",
+    "productName": "Chess",
+    "mac": {
+      "category": "public.app-category.games",
+      "target": ["dmg", "zip"],
+      "icon": "icon/logo.icns",
+      "darkModeSupport": true
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "icon/logo.ico"
+    },
+    "linux": {
+      "target": ["AppImage", "deb"],
+      "icon": "icon/logo.png"
+    }
   }
 }
+
