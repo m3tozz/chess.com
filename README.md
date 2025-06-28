@@ -19,6 +19,11 @@
   <code>git clone --depth 1 https://github.com/m3tozz/chess.com && cd chess.com && bash ./chess.sh --install && cd ..</code>
   </details>
   
+ #### Pre-built Linux Packages
+ 
+- Portable (no install): [**Download .AppImage File**](https://github.com/m3tozz/chess.com/releases/download/v1.0.0/Chess-1.0.0-portable-linux.AppImage) 
+- Debian-based systems (installation file): [**Download .deb Package**](https://github.com/m3tozz/chess.com/releases/download/v1.0.0/Chess_1.0.0_amd64.deb) 
+  
 ---
 
 ### Windows
