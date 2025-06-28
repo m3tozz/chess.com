@@ -1,5 +1,6 @@
 # chess.com
-*Simple Electron-based Chess.com Client*
+*Simple Electron-based Chess.com Client*<br>
+<img src="https://github.com/user-attachments/assets/204648c3-43ff-4659-a4ac-24a600c8d9d3" width="600">
 
 ---
 
