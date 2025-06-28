@@ -33,3 +33,15 @@ Download and run the installer:
 >*Supports Windows 10 and later*
 
 ---
+
+### MacOS
+Manual run without installation using main.js and package.json
+```bash
+npm install
+npm start
+```
+
+> [!NOTE]
+> .dmg installation file for mac will be added
+
+---
