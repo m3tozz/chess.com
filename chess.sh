@@ -51,7 +51,7 @@ mtz:install() {
 
   sudo ln -sf /opt/chess/node_modules/.bin/electron /usr/local/bin/chess
 
-  sudo install -Dm644 logo.png /usr/share/icons/hicolor/128x128/apps/chess-icon.png
+  sudo install -Dm644 icon/logo.png /usr/share/icons/hicolor/128x128/apps/chess-icon.png
 
   sudo tee /usr/share/applications/chess.desktop > /dev/null <<EOF
 [Desktop Entry]
