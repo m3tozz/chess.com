@@ -63,7 +63,7 @@ Terminal=false
 Type=Application
 Categories=Network;WebBrowser;
 EOF
-
+notify-send chess\ installed!
   echo "[✓] Installation complete!"
 }
 
@@ -74,6 +74,7 @@ mtz:uninstall() {
   sudo rm -rf /opt/chess
   sudo rm -f /usr/local/bin/chess
   sudo rm -f /usr/share/icons/hicolor/128x128/apps/chess-icon.png
+  notify-send chess\ uninstalled!
   echo "[✓] Chess application has been uninstalled."
 }
 
